@@ -86,3 +86,27 @@ h1{
 .image-container img {
   display: inline-block;
 }
+
+table.mytable {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.mytable th, .mytable td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.mytable th {
+  background-color: #fed8b1;
+}
+
+.mytable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.mytable tr:hover {
+  background-color: #e0e0e0;
+}
