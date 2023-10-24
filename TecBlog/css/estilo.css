@@ -13,12 +13,12 @@
 body{
   font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background: #e6e6e6;
+  background: #fff4ee;
 }
 
 /*Layout */
 #area-cabecalho {
-  background-color: #f7b600;
+  background-color: #2d8aee;
   padding: 15px;
   text-align: center;
 }
@@ -32,14 +32,21 @@ body{
 }
 
 #area-postagens, #area-lateral{
-  background: orange;
 }
 
 .postagem{
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
+  border-radius: 15px;
   background: white;
 }
+
+.postagem h2 {
+	font-size: 2.5rem;
+	font-family: serif;
+}
+
+
 
 #rodape {
   clear: both;
@@ -57,6 +64,7 @@ body{
 /*Formatação do menu */
 a{
   text-decoration: none;
+  font-size: 1.2rem;
 }
 a:link, a:visited{
   color: #FFF;
@@ -64,14 +72,14 @@ a:link, a:visited{
 }
 
 a:hover{
-  color: #f7b600;
+  color: black;
   background: #FFF;
 
 }
 
 /*Formatação em geral */
 h1{
-  color: #4e4e4e;
+  color: black;
   font-size: 2.5em;
   }
 
