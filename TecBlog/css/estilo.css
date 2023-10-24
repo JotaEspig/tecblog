@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.centralize {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 body{
   font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -22,29 +28,17 @@ body{
 }
 
 #area-principal{
-  width: 920px;
-  margin: 0 auto; /* auto paramargm autoática */
+  width: 660px;
 }
 
 #area-postagens, #area-lateral{
   background: orange;
 }
 
-#area-postagens{
-  width: 660px;
-  float: left;
-}
-
-#area-lateral{
-  width: 240px;
-  float: right;
-}
-
 .postagem{
   padding: 20px;
   margin-bottom: 20px;
   background: white;
-
 }
 
 #rodape {
@@ -83,4 +77,12 @@ h1{
 
 .branco {
   color: white;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: inline-block;
 }
