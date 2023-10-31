@@ -1,16 +1,16 @@
 /*Limpar fomrataçõs padrão */
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 .centralize {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-body{
+body {
   font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: #fff4ee;
@@ -23,18 +23,19 @@ body{
   text-align: center;
 }
 
-#area-logo, #area-menu {
+#area-logo,
+#area-menu {
   padding: 10px;
 }
 
-#area-principal{
+#area-principal {
   width: 660px;
 }
 
-#area-postagens, #area-lateral{
-}
+#area-postagens,
+#area-lateral {}
 
-.postagem{
+.postagem {
   padding: 20px;
   margin: 20px 0 20px 0;
   border-radius: 15px;
@@ -42,8 +43,8 @@ body{
 }
 
 .postagem h2 {
-	font-size: 2.5rem;
-	font-family: serif;
+  font-size: 2.5rem;
+  font-family: serif;
 }
 
 
@@ -55,33 +56,35 @@ body{
   background: #CCC;
 }
 
-#leia{
+#leia {
   color: orange;
-  padding: 0px;
-    }
+  padding: 0;
+}
 
 
 /*Formatação do menu */
-a{
+a {
   text-decoration: none;
   font-size: 1.2rem;
 }
-a:link, a:visited{
+
+a:link,
+a:visited {
   color: #FFF;
   padding: 8px 12px;
 }
 
-a:hover{
+a:hover {
   color: black;
   background: #FFF;
 
 }
 
 /*Formatação em geral */
-h1{
+h1 {
   color: black;
   font-size: 2.5em;
-  }
+}
 
 .branco {
   color: white;
@@ -101,7 +104,8 @@ table.mytable {
   font-family: Arial, sans-serif;
 }
 
-.mytable th, .mytable td {
+.mytable th,
+.mytable td {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;

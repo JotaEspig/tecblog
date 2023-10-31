@@ -1,78 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TecBlog - Jogos</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <link rel="stylesheet" type="text/css" href="css/jogos.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header id="area-cabecalho">
-      <div id="area-logo">
-        <h1>Tec<span class="branco">Blog</span></h1>
-      </div>
-      <nav id="area-menu">
-        <a href="index.html">Home</a>
-        <a href="jogos.html">Jogos</a>
-        <a href="celulares.html">Celulares</a>
-        <a href="informatica.html">Informática</a>
-        <a href="eletronicos.html">Eletrônicos</a>
-      </nav>
+        <div id="area-logo">
+            <h1>Tec<span class="branco">Blog</span></h1>
+        </div>
+        <nav id="area-menu">
+            <a href="index.html">Home</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="celulares.html">Celulares</a>
+            <a href="informatica.html">Informática</a>
+            <a href="eletronicos.html">Eletrônicos</a>
+        </nav>
     </header>
     <section id="area-principal" class="centralize">
-      <section id="area-postagens">
-        <article class="postagem">
-          <h2>Samsung Eletronics expande programa de autorreparo na Europa</h2>
-          <span>postado em 24 de julho</span>
-          <div class="image-container">
-              <img width="512px" src="data:image/jpeg;base64,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" alt="Imagem do Jogo Minecraft" />
-          </div>
-          <p>
-		Samsung Eletronics expande as vendas de autorreparo com kits oficiais para países da Europa para estender o ciclo de vida dos dispositivos.
-          </p>
-          <a id="leia" target="_blank" href=""> Leia Mais</a>
-        </article>
+        <section id="area-postagens">
+            <article class="postagem">
+                <h2>Samsung Eletronics expande programa de autorreparo na Europa</h2>
+                <span>postado em 24 de julho</span>
+                <div class="image-container">
+                    <img width="512px"
+                        src="https://www.mobiletime.com.br/wp-content/uploads/2023/06/Self-Repair-in-Europe-News-Body.jpeg"
+                        alt="Imagem do Jogo Minecraft" />
+                </div>
+                <p>
+                    Samsung Eletronics expande as vendas de autorreparo com kits oficiais para países da Europa para
+                    estender o
+                    ciclo de vida dos dispositivos.
+                </p>
+                <a id="leia" target="_blank" href=""> Leia Mais</a>
+            </article>
 
-        <section class="contact">
-          <h2>Mande uma review de um jogo:</h2>
-          <form>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required><br>
+            <section class="contact">
+                <h2>Mande uma review de um jogo:</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required><br>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br>
 
-            <label for="message">Mensagem:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                    <label for="message">Mensagem:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
 
-            <input type="submit" value="Enviar">
-          </form>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+
+            <section class="gamereview">
+                <h2>Resenhas de Jogos</h2>
+                <table class="mytable">
+                    <tr>
+                        <th>Jogo</th>
+                        <th>Nota</th>
+                        <th>Comentários</th>
+                    </tr>
+                    <tr>
+                        <td>Jogo A</td>
+                        <td>9.5</td>
+                        <td>Excelente jogo de aventura.</td>
+                    </tr>
+                    <tr>
+                        <td>Jogo B</td>
+                        <td>8.0</td>
+                        <td>Bom jogo de estratégia.</td>
+                    </tr>
+                    <!-- Add more rows for game reviews -->
+                </table>
+            </section>
         </section>
-
-        <section class="gamereview">
-          <h2>Resenhas de Jogos</h2>
-          <table class="mytable">
-            <tr>
-              <th>Jogo</th>
-              <th>Nota</th>
-              <th>Comentários</th>
-            </tr>
-            <tr>
-              <td>Jogo A</td>
-              <td>9.5</td>
-              <td>Excelente jogo de aventura.</td>
-            </tr>
-            <tr>
-              <td>Jogo B</td>
-              <td>8.0</td>
-              <td>Bom jogo de estratégia.</td>
-            </tr>
-            <!-- Add more rows for game reviews -->
-          </table>
-        </section>
-      </section>
-      <footer id="rodape">Todos os direitos reservados</div>
+        <footer id="rodape">Todos os direitos reservados</div>
     </section>
-  </body>
-<
+</body>
+
+</html>

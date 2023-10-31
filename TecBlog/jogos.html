@@ -1,83 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TecBlog - Jogos</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
     <link rel="stylesheet" type="text/css" href="css/jogos.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <header id="area-cabecalho">
-      <div id="area-logo">
-        <h1>Tec<span class="branco">Blog</span></h1>
-      </div>
-      <nav id="area-menu">
-        <a href="index.html">Home</a>
-        <a href="jogos.html">Jogos</a>
-        <a href="celulares.html">Celulares</a>
-        <a href="informatica.html">Informática</a>
-        <a href="eletronicos.html">Eletrônicos</a>
-      </nav>
+        <div id="area-logo">
+            <h1>Tec<span class="branco">Blog</span></h1>
+        </div>
+        <nav id="area-menu">
+            <a href="index.html">Home</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="celulares.html">Celulares</a>
+            <a href="informatica.html">Informática</a>
+            <a href="eletronicos.html">Eletrônicos</a>
+        </nav>
     </header>
     <section id="area-principal" class="centralize">
-      <section id="area-postagens">
-        <article class="postagem">
-          <h2>Título do Minecraft</h2>
-          <span>postado em 24 de julho</span>
-          <div class="image-container">
-              <img width="512px" src="imagens/minecraft.png" alt="Imagem do Jogo Minecraft" />
-          </div>
-          <p>
-            Minecraft é um jogo feito de blocos que você pode transformar em tudo que puder imaginar.
-            Jogue no modo Criativo com recursos ilimitados, ou cace ferramentas para se defender do perigo no modo Sobrevivência.
-            Com uma jogabilidade flida entre plataformas no Minecraft: Bedrock Edition,
-            você pode se aventurar por conta própria ou com amigos e descobrir um mundo infinito
-            gerado aleatoriamente repleto de blocos para minerar, biomas para explorar e criaturas para
-            fazer amizade (ou enfrentar). A escolha é sua no Minecraft – então jogue à sua maneira!
-          </p>
-          <a id="leia" target="_blank" href="https://www.minecraft.net/pt-br"> Leia Mais</a>
-        </article>
+        <section id="area-postagens">
+            <article class="postagem">
+                <h2>Título do Minecraft</h2>
+                <span>postado em 24 de julho</span>
+                <div class="image-container">
+                    <img width="512px" src="imagens/minecraft.png" alt="Imagem do Jogo Minecraft" />
+                </div>
+                <p>
+                    Minecraft é um jogo feito de blocos que você pode transformar em tudo que puder imaginar.
+                    Jogue no modo Criativo com recursos ilimitados, ou cace ferramentas para se defender do perigo no
+                    modo
+                    Sobrevivência.
+                    Com uma jogabilidade flida entre plataformas no Minecraft: Bedrock Edition,
+                    você pode se aventurar por conta própria ou com amigos e descobrir um mundo infinito
+                    gerado aleatoriamente repleto de blocos para minerar, biomas para explorar e criaturas para
+                    fazer amizade (ou enfrentar). A escolha é sua no Minecraft – então jogue à sua maneira!
+                </p>
+                <a id="leia" target="_blank" href="https://www.minecraft.net/pt-br"> Leia Mais</a>
+            </article>
 
-        <section class="contact">
-          <h2>Mande uma review de um jogo:</h2>
-          <form>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name" required><br>
+            <section class="contact">
+                <h2>Mande uma review de um jogo:</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required><br>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br>
 
-            <label for="message">Mensagem:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                    <label for="message">Mensagem:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
 
-            <input type="submit" value="Enviar">
-          </form>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+
+            <section class="gamereview">
+                <h2>Resenhas de Jogos</h2>
+                <table class="mytable">
+                    <tr>
+                        <th>Jogo</th>
+                        <th>Nota</th>
+                        <th>Comentários</th>
+                    </tr>
+                    <tr>
+                        <td>Minecraft</td>
+                        <td>9.5</td>
+                        <td>Excelente jogo de aventura.</td>
+                    </tr>
+                    <tr>
+                        <td>Minecraft</td>
+                        <td>8.0</td>
+                        <td>Bom jogo</td>
+                    </tr>
+                    <!-- Add more rows for game reviews -->
+                </table>
+            </section>
         </section>
-
-        <section class="gamereview">
-          <h2>Resenhas de Jogos</h2>
-          <table class="mytable">
-            <tr>
-              <th>Jogo</th>
-              <th>Nota</th>
-              <th>Comentários</th>
-            </tr>
-            <tr>
-              <td>Minecraft</td>
-              <td>9.5</td>
-              <td>Excelente jogo de aventura.</td>
-            </tr>
-            <tr>
-              <td>Minecraft</td>
-              <td>8.0</td>
-              <td>Bom jogo</td>
-            </tr>
-            <!-- Add more rows for game reviews -->
-          </table>
-        </section>
-      </section>
-      <footer id="rodape">Todos os direitos reservados</div>
+        <footer id="rodape">Todos os direitos reservados</div>
     </section>
-  </body>
+</body>
+
 </html>
